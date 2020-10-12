@@ -2,11 +2,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 
-        <!--        <item name="colorPrimary">@color/primary_color</item>-->
+        <item name="colorPrimary">@color/primary_color</item>
         <item name="colorPrimaryDark">@color/primary_color</item>
-        <!--        <item name="colorAccent">@color/primary_color</item>-->
-        <!--        <item name="colorPrimaryDark">@color/primary_dark_color</item>-->
-        <!--        <item name="actionBarStyle">@style/MiwokAppBarStyle</item>-->
+
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:textViewStyle">@style/OpeSansLight</item>
         <!--        <item name="windowNoTitle">true</item>-->
