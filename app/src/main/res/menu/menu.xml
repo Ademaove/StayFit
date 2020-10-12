@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Exercises">
+    <item
+        android:id="@+id/radMad"
+        android:icon="@drawable/logo1"
+        app:showAsAction="always"
+        android:title="Logo" />
+    <item
+        android:id="@+id/action_insert_dummy_data"
+        android:icon="@drawable/outline_settings_white_48dp"
+        app:showAsAction="always"
+        android:title="Settings" />
+
+</menu>
