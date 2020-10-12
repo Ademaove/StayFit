@@ -1,10 +1,40 @@
 <resources>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--        <item name="colorPrimary">@color/primary_color</item>-->
+        <item name="colorPrimaryDark">@color/primary_color</item>
+        <!--        <item name="colorAccent">@color/primary_color</item>-->
+        <!--        <item name="colorPrimaryDark">@color/primary_dark_color</item>-->
+        <!--        <item name="actionBarStyle">@style/MiwokAppBarStyle</item>-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textViewStyle">@style/OpeSansLight</item>
+        <!--        <item name="windowNoTitle">true</item>-->
+
     </style>
+    <style name="OpeSansLight" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/open_sans_light</item>
+    </style>
+
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/primary_color</item>
+        <item name="tabSelectedTextColor">@android:color/holo_red_dark</item>
+
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#FFFDFC</item>
+    </style>
+
+
+    <style name="MyAppBarLayoutTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorBackground</item>
+    </style>
+
 
 </resources>
